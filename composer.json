@@ -1,0 +1,30 @@
+{
+  "name": "phpjsonrpc/http-server",
+  "description": "JSON-RPC 2.0 HTTP Server.",
+  "keywords": [
+    "json",
+    "rpc",
+    "server",
+    "api",
+    "http"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adam Balogh",
+      "email": "adam.balogh.craft@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "phpjsonrpc/server": "dev-master",
+    "league/route": "^2.0.0",
+    "zendframework/zend-diactoros": "^1.3.7",
+    "league/booboo": "^1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpJsonRpc\\HttpServer\\": "src/"
+    }
+  }
+}
